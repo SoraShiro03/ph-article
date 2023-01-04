@@ -1,0 +1,30 @@
+/* .not-hidden {
+    display: flex;
+} */
+
+.to-the-left {}
+
+
+/* for hover effect and animation */
+section p:hover {
+    text-decoration: underline;
+    font-weight: 400;
+
+}
+
+.small--card h3:hover {
+    text-decoration: underline;
+}
+
+.user--profile:hover {
+    transform: translateX(1em);
+    text-decoration: underline;
+    transition: .2s ease;
+}
+
+.user--sign-in p:hover {
+    color: white;
+
+    background-color: #262a54;
+    transition: .3s ease-in;
+}
